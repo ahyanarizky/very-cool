@@ -1,4 +1,4 @@
-# Very Cool
+# Very Cool Forum
 Portofolio Project Final Phase 2 Blandford Fox
 
 ## Main Stack
@@ -34,11 +34,11 @@ Endpoint | Method | Description |
 ### Cool Forum
 Endpoint | Method | Description |
 ----|-----| ------|
-`http://localhost:3000/api/cool` | GET | Get All Threads
-`http://localhost:3000/api/cool/:id` | GET | Get One Thread
-`http://localhost:3000/api/cool` | POST | Create New Thread
-`http://localhost:3000/api/cool/:id` | PUT | Edit Thread
-`http://localhost:3000/api/cool/:id` | DELETE | Delete Thread
+`http://localhost:3000/api/thread` | GET | Get All Threads
+`http://localhost:3000/api/thread/:id` | GET | Get One Thread
+`http://localhost:3000/api/thread` | POST | Create New Thread
+`http://localhost:3000/api/thread/:id` | PUT | Edit Thread
+`http://localhost:3000/api/thread/:id` | DELETE | Delete Thread
 
 ## Model
 ### User
@@ -82,22 +82,14 @@ let threadSchema = new mongoose.Schema({
     threadId: {
         type: Number
     },
-    avatar_url: {
+    title: {
         type: String
     },
     content: {
         type: String,
         required: true
     },
-    username: {
-        type: String,
-        required: true
-    },
-    name: {
-        type: String,
-        required: true
-    },
-    hashtag: {
+    comment: {
         type: Array
     }
 }, {

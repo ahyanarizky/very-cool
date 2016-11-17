@@ -1,0 +1,25 @@
+{
+  "name": "client",
+  "homepage": "https://github.com/ahyanarizky/very-cool",
+  "authors": [
+    "Ahyana Rizky Pratama <ahyana.rizky@gmail.com>"
+  ],
+  "description": "client for very cool",
+  "main": "index.html",
+  "keywords": [
+    "very",
+    "cool"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jwt-decode": "^2.1.0"
+  }
+}

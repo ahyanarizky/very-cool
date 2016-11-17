@@ -20,6 +20,9 @@ Portofolio Project Final Phase 2 Blandford Fox
 * passport-local
 * passport-local-mongoose
 
+## Client Dependencies
+* jwt-decode
+
 ## API Routes
 
 ### Auth
